@@ -1,71 +1,108 @@
 h1, h2, h3, p, body, div {
    font-family: Tahoma, Helvetica, sans-serif;
    margin: 0;
-   padding: 0;  
+   padding: 0; 
+
 }
 
 h1  {  
    font-size: 1.8em; 
    margin: 0.25em 0 0.25em 0;
 }
-h2  {   
+h2  {  
    font-size: 1.2em;    
-   margin: 0.5em 0 0.25em 0;
+   margin: 0.5em 10em 0.20em 9em;
+   
 }
 p, body {
-   font-size: 0.9em;
+   font-size: 1em;
 } 
 p {
+width:820px;
    margin-bottom: 1em;
+margin-left:9em;
+   margin-right:9em;
+  
 }  
 body {
+	
    background-color: white; 
+   float:right;
 }
 
 article {
+	
    background-color: #F5F5F5;
-
+   margin-left: 35em;
+   margin-bottom:10em;
+   margin-right:15em;
+   margin-top:2em;
+	
 }
+
+
 
 
 
 figure {    
-
-}
-figcaption {
-   width: 140px;
-   background-color: black;
-   color:white;
-   height: 20px;
-
+overflow:hidden;
+float:left;
 }
 .overlayed {
-
+	position:relative;
+	margin-left:-155px;
+    
 }
+
 
 .entry {
    overflow: auto;
    border-top: 1pt solid #ff8800;
+   
 }
 
 .linkbutton {
-   background-color: #ff8800;
+   position:relative;
+   background-color:#ff8800;
    color: white;
    text-decoration: none; 
-   font-size: 0.75em;   
+   font-size: 0.75em;  
+	margin-bottom:3em;
+	float:right;
+	height:30px;
+	text-align:center;
 }
 
 
 footer {
+	width:2050px;
+	padding-top:1em;
+	overflow:hidden;
    background-color: #474747;
    color: #cacaca;
 }
-footer h2 { color: #a4a1a1; }   
-.footer-related {
-   border-top: 1pt solid #ff8800;
-}
-.footer-section{
 
+.footer-related {
+	position:relative;
    border-top: 1pt solid #ff8800;
+   float:left;
+   margin-right:60px;
+   
 }
-.footer-related img { margin: 3px; }
+.footer-section{	
+	position:relative;
+	border-top: 1pt solid #ff8800;	
+	float:right;
+	
+  }
+
+.footer-related img { margin: 3px;  }
+figcaption {
+   width: 150px;
+   background-color:black;
+   opacity:0.8;
+   color:WHITE;
+   height:30px;
+   margin-top:-2em;
+   position:absolute;
+   }footer h2 {margin-left:1em; margin-right:3em; color: #a4a1a1;}   
